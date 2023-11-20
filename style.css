@@ -1,0 +1,65 @@
+* {box-sizing: border-box;}
+.cabeza {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 248, 107);
+    border-radius: 10%;
+    border: solid black;
+}
+
+.ojos {
+    height: 35px;
+    width: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 2;
+    border: solid black;
+}
+
+#mogut {
+    position: relative;
+    top: -80px;
+    left: 15px;
+}
+
+#mogut2 {
+    position: relative;
+    top: -115px;
+    left: 50px;
+}
+
+.iris {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(132, 132, 233);
+    border-radius: 50%;
+    border: solid black;
+}
+
+#iris {
+    position: relative;
+    top: -140px;
+    left: 25px;
+    z-index: 3;
+}
+
+#iris2 {
+    position: relative;
+    top: -155px;
+    left: 60px;
+    z-index: 3;
+}
+
+.cornea {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#cornea {
+    position: relative;
+    top: -165px;
+    left: 30px;
+    z-index: 4;
+}
