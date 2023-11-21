@@ -22,16 +22,18 @@ body {
     border: solid black;
 }
 
-#mogut {
+#ojo1 {
     position: relative;
     top: -80px;
     left: 15px;
+    z-index: 3;
 }
 
-#mogut2 {
+#ojo2 {
     position: relative;
     top: -115px;
     left: 50px;
+    z-index: 3;
 }
 
 .iris {
@@ -90,3 +92,142 @@ body {
     left: 5px;
     z-index: 4;
 }
+
+#agujero2 {
+    position: relative;
+    top: -202px;
+    left: 4px;
+    z-index: 4;
+}
+
+.agujero2 {
+    height: 15px;
+    width: 8px;
+    background-color: rgb(169, 164, 69);
+    border-radius: 50%;
+}
+
+.agujero3 {
+    height: 7px;
+    width: 5px;
+    background-color: rgb(169, 164, 69);
+    border-radius: 50%;
+}
+
+#agujero3 {
+    position: relative;
+    top: -266px;
+    left: 86px;
+    z-index: 4;
+}
+
+.agujero4 {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(169, 164, 69);
+    border-radius: 50%;
+}
+
+#agujero4 {
+    position: relative;
+    top: -210px;
+    left: 6px;
+    z-index: 4;
+}
+
+.agujero5 {
+    height: 15px;
+    width: 12px;
+    background-color: rgb(169, 164, 69);
+    border-radius: 50%;
+}
+
+#agujero5 {
+    position: relative;
+    top: -208px;
+    left: 14px;
+    z-index: 4;
+}
+
+#agujero6 {
+    position: relative;
+    top: -218px;
+    left: 70px;
+    z-index: 4;
+    transform: rotate(35deg);
+}
+
+.agujero6 {
+    height: 13px;
+    width: 8px;
+    background-color: rgb(169, 164, 69);
+    border-radius: 50%;
+}
+
+#agujero7 {
+    position: relative;
+    top: -243px;
+    left: 82px;
+    z-index: 4;
+}
+
+.agujero7 {
+    height: 18px;
+    width: 13px;
+    background-color: rgb(169, 164, 69);
+    border-radius: 50%;
+}
+
+.pestaña {
+    height: 5px;
+    width: 2px;
+    background-color: black;
+    border: solid black;
+}
+
+#pestaña1 {
+    position: relative;
+    top: -230px;
+    left: 32px;
+    z-index: 2;
+}
+
+#pestaña2 {
+    position: relative;
+    top: -232px;
+    left: 22px;
+    z-index: 2;
+    transform: rotate(145deg);
+}
+
+#pestaña3 {
+    position: relative;
+    top: -237px;
+    left: 42px;
+    z-index: 2;
+    transform: rotate(35deg);
+}
+
+#pestaña4 {
+    position: relative;
+    top: -245px;
+    left: 66px;
+    z-index: 2;
+}
+
+#pestaña5 {
+    position: relative;
+    top: -247px;
+    left: 56px;
+    z-index: 2;
+    transform: rotate(145deg);
+}
+
+#pestaña6 {
+    position: relative;
+    top: -252px;
+    left: 76px;
+    z-index: 2;
+    transform: rotate(35deg);
+}
+
