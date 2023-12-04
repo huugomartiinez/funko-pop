@@ -16,7 +16,6 @@ body {
 
 .ojos {
     position: relative;
-    border: thin solid green;
     height: 140px;
     top: 80px;
 }
@@ -110,7 +109,6 @@ body {
     position: relative;
     height: 400px;
     width: 400px;
-    border: thin solid blue;
     top: -242px;
 
 }
@@ -181,7 +179,6 @@ body {
 }
 
 .pestañas {
-    border: thin solid red;
     position: relative;
     height: 100px;
     top: -110px;
@@ -195,7 +192,16 @@ body {
     margin: 0 auto;
     left: 0;
     right: 0;
-    
+    animation: cambioColorPestaña 4s infinite;
+}
+
+@keyframes cambioColorPestaña {
+    0%, 100% {
+        background-color: rgb(0, 0, 0);
+    }
+    50% {
+        background-color: rgb(111, 114, 111);
+    }
 }
 
 /* Pestañas centrales */
@@ -238,7 +244,7 @@ body {
 
 @keyframes sizehh {
     0% {
-        scale: 1.1;
+        scale: 1.2;
     }
     85% {
         scale: 1;
@@ -264,7 +270,6 @@ body {
 }
 
 .narizz {
-    border: thin solid rgb(0, 225, 255);
     position: relative;
     height: 30px;
     top: -450px;
@@ -304,7 +309,6 @@ body {
 }
 
 .bocaa {
-    border: thin solid rgb(255, 0, 191);
     position: relative;
     height: 120px;
     top: -450px;
