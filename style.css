@@ -57,6 +57,16 @@ body {
     background-color: rgb(132, 132, 233);
     border-radius: 50%;
     border: solid black;
+    animation: cambioColorOjo 4s infinite;
+}
+
+@keyframes cambioColorOjo {
+    0%, 100% {
+        background-color: rgb(132, 132, 233);
+    }
+    50% {
+        background-color: rgb(6, 243, 6);
+    }
 }
 
 #iris {
@@ -221,6 +231,20 @@ body {
     top: 42px;
 }
 
+.size {
+    animation: sizehh 2s infinite linear;
+
+}
+
+@keyframes sizehh {
+    0% {
+        scale: 1.1;
+    }
+    85% {
+        scale: 1;
+    }
+}
+
 /* Pestañas derecha */
 
 #pestaña5 {
@@ -349,3 +373,4 @@ body {
     left: 50px;
     transform: rotate(-5deg);
 }
+
