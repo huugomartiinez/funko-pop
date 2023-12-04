@@ -278,3 +278,74 @@ body {
     top: -5px;
     z-index: 6;
 }
+
+.bocaa {
+    border: thin solid rgb(255, 0, 191);
+    position: relative;
+    height: 120px;
+    top: -450px;
+    overflow: hidden;
+
+}
+
+.boca {
+    height: 350px;
+    width: 400px;
+    border: solid black;
+    background-color: rgb(255, 248, 107);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+#boca {
+    position: absolute;
+    top: -305px;
+    z-index: 6;
+}
+
+.boca2 {
+    position: relative;
+    height: 350px;
+    width: 285px;
+    border: solid black;
+    background-color: #3f2020;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+#boca2 {
+    position: relative;
+    top: -232px;
+    z-index: 5;
+    left: 3px;
+}
+
+.diente {
+    height: 40px;
+    width: 40px;
+    border: solid black;
+    background-color: #ffffff;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#dientei {
+    position: absolute;
+    bottom: 40px;
+    z-index: 7;
+    right: 50px;
+    transform: rotate(5deg);
+}
+
+#diented {
+    position: absolute;
+    bottom: 40px;
+    z-index: 7;
+    left: 50px;
+    transform: rotate(-5deg);
+}
