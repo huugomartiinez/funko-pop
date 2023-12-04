@@ -155,8 +155,8 @@ body {
 
 #agujero6 {
     position: relative;
-    top: 90px;
-    left: 276px;
+    top: 80px;
+    left: 296px;
     height: 52px;
     width: 32px;
     transform: rotate(35deg);
@@ -164,8 +164,8 @@ body {
 
 #agujero7 {
     position: relative;
-    top: -266px;
-    left: 86px;
+    top: -46px;
+    left: 326px;
     height: 72px;
     width: 52px;
 }
@@ -237,4 +237,44 @@ body {
     top: 42px;
     z-index: 2;
     transform: rotate(35deg);
+}
+
+.narizz {
+    border: thin solid rgb(0, 225, 255);
+    position: relative;
+    height: 30px;
+    top: -450px;
+}
+
+.nariz {
+    height: 50px;
+    width: 40px;
+    background-color: rgb(255, 248, 107);
+    border: solid black;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+#nariz {
+    position: absolute;
+    top: -25px;
+    z-index: 6;
+}
+
+.tapon {
+    height: 35px;
+    width: 25px;
+    background-color: rgb(255, 248, 107);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+#tapon {
+    position: absolute;
+    top: -5px;
+    z-index: 6;
 }
